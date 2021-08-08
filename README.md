@@ -61,6 +61,14 @@ such as autoprefixer.
 [postcss]: https://postcss.org/
 [postcss logomark]: https://api.iconify.design/simple-icons:postcss.svg "PostCSS logomark"
 
+### ![Sass logomark] [Sass]
+
+As the primary CSS language, for improving the development experience with
+advanced syntax.
+
+[sass]: https://sass-lang.com/
+[sass logomark]: https://api.iconify.design/simple-icons:sass.svg "Sass logomark"
+
 ---
 
 ## ⚓ Prerequisites
