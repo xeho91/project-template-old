@@ -231,6 +231,7 @@ The following scripts are available for this project:
 -   [`pnpm format`](#pnpm-format)
 -   [`pnpm lint`](#pnpm-lint)
     -   [`pnpm lint:commits`](#pnpm-lintcommits)
+    -   [`pnpm lint:js`](#pnpm-lintjs)
     -   [`pnpm lint:ls`](#pnpm-lintls)
 
 ### `pnpm commit`
@@ -264,6 +265,25 @@ The [commitlint] configuration is in the [.commitlintrc.js](./.commitlintrc.js)
 file.
 
 [commitlint]: https://commitlint.js.org/#/
+
+#### `pnpm lint:js`
+
+Statically **analyzes the [JavaScript]/[TypeScript] source code** with
+[ESLint] to quickly find problems.\
+It includes as well code files for these frameworks:
+
+-   [React] _(`*.jsx` or `*.tsx` files)_,
+-   [Svelte] _(`*.svelte` files)_,
+-   [Vue] _(`*.vue` files)_.
+
+The [ESLint] configuration is in the [.eslintrc.js](./.eslintrc.js) file.
+
+[javascript]: https://developer.mozilla.org/en-US/docs/Web/javascript
+[typescript]: https://www.typescriptlang.org/
+[eslint]: https://eslint.org/
+[react]: https://reactjs.org/
+[svelte]: https://svelte.dev/
+[vue]: https://v3.vuejs.org/
 
 #### `pnpm lint:ls`
 
