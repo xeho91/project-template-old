@@ -15,5 +15,11 @@
 	},
 	"bugs": {
 		"url": "https://github.com/xeho91/template-project/issues"
+	},
+	"devDependencies": {
+		"gacp": "^2.10.2"
+	},
+	"scripts": {
+		"commit": "gacp"
 	}
 }

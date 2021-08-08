@@ -8,6 +8,11 @@ _(developing)_ for this project.
 -   [Coding style guidelines](#coding-style-guidelines)
 -   [Developing steps](#developing-steps)
 -   [Git setup](#git-setup)
+    -   [Git commits convention](#git-commits-convention)
+    -   [Writing commit messages](#writing-commit-messages)
+-   [Coding style guidelines](#coding-style-guidelines)
+-   [Developing steps](#developing-steps)
+-   [Git setup](#git-setup)
 -   [Scripts](#scripts)
 
 ---
@@ -137,6 +142,9 @@ _(developing)_ for this project.
     [Jira] or [GitHub])_.
 
 1. **Code your modifications/new features**, and commit them along the way.
+   Please read more about set [Git commits
+   convention](#git-commits-convention), and [writing commit
+   messages](writing-commit-messages).
 
 1. When your changes are ready, **push the branch to a remote repo** with the
    following git command:
@@ -159,6 +167,37 @@ _(developing)_ for this project.
 
 This section explains the configured Git flow for this project.
 
+### Git commits convention
+
+[![Conventional Commits shield]][conventional commits] [![Gitmoji shield]][gitmoji]
+
+**This project uses [Conventional Commits], and [Gitmoji] commits
+conventions.**
+
+[conventional commits shield]: https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg?style=for-the-badge
+[conventional commits]: https://conventionalcommits.org "Conventional commits convention"
+[gitmoji shield]: https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=for-the-badge
+[gitmoji]: https://gitmoji.dev "Gitmoji convention"
+
+### Writing commit messages
+
+The currently recommended CLI _(Command Line Interface)_ tool to use them both
+is the [gacp] Node.js package. The local config for this tool is set in the
+[`.gacprc.js`](./.gacprc.js) file.
+
+**You can either use:**
+
+```sh
+pnpm commit
+```
+
+**or install [gacp] globally on your device.**
+
+More information about this script is in the [pnpm commit](#pnpm-commit)
+section.
+
+[gacp]: https://github.com/vivaxy/gacp
+
 ---
 
 ## 🧰 Scripts
@@ -169,3 +208,12 @@ This section explains the configured Git flow for this project.
 [node.js]: https://nodejs.org/en/
 
 The following scripts are available for this project:
+
+-   [`pnpm commit`](#pnpm-commit)
+
+### `pnpm commit`
+
+**Runs a commit message generator for the staged files** using the [gacp]
+Node.js package.
+
+The [gacp] configuration is in the [.gacprc.js](./.gacprc.js) file.
