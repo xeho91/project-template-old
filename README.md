@@ -126,6 +126,11 @@ your current device on your network)_.
     pnpm install
     ```
 
+1. **Configure the [Environment Variables]** based on the
+   [`.env.example`](./.env.example) file.
+
+    📝 **NOTE:** You can either create a local `.env` file or use [Doppler].
+
 1. **Build the output and preview it** using the command:
 
     ```sh
@@ -137,6 +142,9 @@ your current device on your network)_.
 
     **NOTE:** If you want to open it on other devices on your network, use the
     IP address provided in the terminal output after running the script.
+
+[environment variables]: https://en.wikipedia.org/wiki/Environment_variable
+[doppler]: https://www.doppler.com/
 
 ---
 

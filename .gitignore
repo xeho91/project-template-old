@@ -17,6 +17,9 @@ node_modules/
 # Desktop Services Store is a hidden file created in every local folder in Mac OS X
 .DS_Store/
 
+# Dotenv files could contain sentitive authentication information
+.env
+
 # Ignore generated log files
 *.log
 

@@ -2,6 +2,8 @@
 const { pathsToModuleNameMapper } = require("ts-jest/utils");
 const { compilerOptions } = require("./tsconfig");
 
+require("dotenv").config();
+
 /** @type { import("ts-jest/dist/types").InitialOptionsTsJest } */
 const config = {
 	automock: false,
