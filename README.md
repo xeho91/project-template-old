@@ -8,6 +8,7 @@ Project description TBA...
 -   [Prerequisites](#-prerequisites)
 -   [Getting started](#-getting-started)
 -   [Feedback](#-feedback)
+-   [Security Policy](#-security-policy)
 -   [License](#-license)
 -   [Contact](#-contact)
 
@@ -53,6 +54,13 @@ Please let me know immediately! I care a lot about it.
 
 [open an issue]: https://github.com/xeho91/project-template/issues/new
 [a11y]: https://www.a11yproject.com/
+
+---
+
+## 🔒 Security Policy
+
+For more information about the Security Policy, take a look at the
+[SECURITY.md](./SECURITY.md) file.
 
 ---
 
