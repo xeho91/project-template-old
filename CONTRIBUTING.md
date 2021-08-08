@@ -257,6 +257,7 @@ Existing hooks:
 The following scripts are available for this project:
 
 -   [`pnpm build`](#pnpm-build)
+-   [`pnpm clean`](#pnpm-clean)
 -   [`pnpm commit`](#pnpm-commit)
 -   [`pnpm dev`](#pnpm-dev)
 -   [`pnpm format`](#pnpm-format)
@@ -282,6 +283,17 @@ possible bugs from being passed into production.
 The [Vite] configuration is in the [vite.config.js](./vite.config.js) file.
 
 [vite]: https://vitejs.dev/
+
+### `pnpm clean`
+
+**Cleans the built outputs**. It removes these directories:
+
+-   `dist/` _(output from the production environment)_
+-   `.cache/` _(output from the development environment)_
+
+It uses the [rimraf] Node.js package to prevent cross-platform issues.
+
+[rimraf]: https://github.com/isaacs/rimraf
 
 ### `pnpm commit`
 
