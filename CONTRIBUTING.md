@@ -231,6 +231,7 @@ The following scripts are available for this project:
 -   [`pnpm format`](#pnpm-format)
 -   [`pnpm lint`](#pnpm-lint)
     -   [`pnpm lint:commits`](#pnpm-lintcommits)
+    -   [`pnpm lint:css`](#pnpm-lintcss)
     -   [`pnpm lint:js`](#pnpm-lintjs)
     -   [`pnpm lint:ls`](#pnpm-lintls)
     -   [`pnpm lint:md`](#pnpm-lintmd)
@@ -266,6 +267,19 @@ The [commitlint] configuration is in the [.commitlintrc.js](./.commitlintrc.js)
 file.
 
 [commitlint]: https://commitlint.js.org/#/
+
+#### `pnpm lint:css`
+
+Statically **analyzes the [CSS] source code** with [Stylelint] to quickly find
+problems.\
+It includes [Sass] _(`*.scss` files)_ as well.
+
+The [Stylelint] configuration is in the [.stylelintrc.js](./.stylelintrc.js)
+file.
+
+[css]: https://developer.mozilla.org/en-US/docs/Web/CSS
+[stylelint]: https://stylelint.io/
+[sass]: https://sass-lang.com/
 
 #### `pnpm lint:js`
 
