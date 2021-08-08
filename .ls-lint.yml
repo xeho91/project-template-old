@@ -1,0 +1,20 @@
+# https://ls-lint.org/
+ls:
+    source:
+        .html: kebab-case
+        .css: snake_case
+        .scss: snake_case
+        .js: kebab-case
+        .ts: kebab-case
+        .jsx: PascalCase
+        .tsx: PascalCase
+        .svelte: PascalCase
+        .vue: PascalCase
+
+ignore:
+    - .cache
+    - .git
+    - .husky
+    - .vscode
+    - dist
+    - node_modules

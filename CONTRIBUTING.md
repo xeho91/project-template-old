@@ -231,6 +231,7 @@ The following scripts are available for this project:
 -   [`pnpm format`](#pnpm-format)
 -   [`pnpm lint`](#pnpm-lint)
     -   [`pnpm lint:commits`](#pnpm-lintcommits)
+    -   [`pnpm lint:ls`](#pnpm-lintls)
 
 ### `pnpm commit`
 
@@ -263,3 +264,12 @@ The [commitlint] configuration is in the [.commitlintrc.js](./.commitlintrc.js)
 file.
 
 [commitlint]: https://commitlint.js.org/#/
+
+#### `pnpm lint:ls`
+
+**Checks the file names** in the project based on their parent folder and file
+extension with [ls-lint].
+
+The [ls-lint] configuration is in the [.ls-lint.yml](./.ls-lint.yml) file.
+
+[ls-lint]: https://ls-lint.org/

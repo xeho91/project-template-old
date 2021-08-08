@@ -17,6 +17,7 @@
 		"url": "https://github.com/xeho91/template-project/issues"
 	},
 	"devDependencies": {
+		"@ls-lint/ls-lint": "^1.10.0",
 		"@xeho91/commitlint-config": "^1.0.0",
 		"@xeho91/prettier-config": "^1.0.0",
 		"commitlint": "^13.1.0",
@@ -28,6 +29,7 @@
 		"commit": "gacp",
 		"format": "prettier --write \".\"",
 		"lint": "run-p lint:*",
-		"lint:commits": "commitlint --from \"develop\" --to \"HEAD\""
+		"lint:commits": "commitlint --from \"develop\" --to \"HEAD\"",
+		"lint:ls": "ls-lint"
 	}
 }
