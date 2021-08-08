@@ -53,6 +53,14 @@ supports modern technologies.
 [vite]: https://vitejs.dev/
 [vite logomark]: https://api.iconify.design/simple-icons:vite.svg "Vite logomark"
 
+### ![PostCSS logomark] [PostCSS]
+
+For using the modern CSS features and plugins to improve the development flow,
+such as autoprefixer.
+
+[postcss]: https://postcss.org/
+[postcss logomark]: https://api.iconify.design/simple-icons:postcss.svg "PostCSS logomark"
+
 ---
 
 ## ⚓ Prerequisites
