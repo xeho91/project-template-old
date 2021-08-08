@@ -146,6 +146,24 @@ _(developing)_ for this project.
    convention](#git-commits-convention), and [writing commit
    messages](writing-commit-messages).
 
+1. **Analyze** _(use linters)_ **the changes using available commands**, such
+   as:
+
+    ```sh
+    pnpm lint
+    ```
+
+    Read more about this script in the [`pnpm lint`](#pnpm-lint) section.
+
+1. **Format the code** if your IDE _(Integrated Development Environment)_ - a
+   code editor didn't do it already, using the following command:
+
+    ```sh
+    pnpm format
+    ```
+
+    Read more about this script in the [`pnpm format`](#pnpm-format) section.
+
 1. When your changes are ready, **push the branch to a remote repo** with the
    following git command:
 
@@ -210,6 +228,7 @@ section.
 The following scripts are available for this project:
 
 -   [`pnpm commit`](#pnpm-commit)
+-   [`pnpm format`](#pnpm-format)
 
 ### `pnpm commit`
 
@@ -217,3 +236,11 @@ The following scripts are available for this project:
 Node.js package.
 
 The [gacp] configuration is in the [.gacprc.js](./.gacprc.js) file.
+
+### `pnpm format`
+
+**Formats the source code files** using [Prettier] formatter.
+
+The [Prettier] configuration is in the [.prettierrc.js](./.prettierrc.js) file.
+
+[prettier]: https://prettier.io/
