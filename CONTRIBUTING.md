@@ -235,6 +235,7 @@ The following scripts are available for this project:
     -   [`pnpm lint:js`](#pnpm-lintjs)
     -   [`pnpm lint:ls`](#pnpm-lintls)
     -   [`pnpm lint:md`](#pnpm-lintmd)
+    -   [`pnpm lint:staged`](#pnpm-lintstaged)
     -   [`pnpm lint:ts`](#pnpm-lintts)
 
 ### `pnpm commit`
@@ -319,6 +320,16 @@ The [markdownlint] configuration is in the
 [.markdownlint.json](./.markdownlint.json) file.
 
 [markdownlint]: https://github.com/DavidAnson/markdownlint
+
+#### `pnpm lint:staged`
+
+**Runs the linters on the files in the Git staging area** with a [lint-staged]
+Node.js package.
+
+The [lint-staged] configuration is in the
+[.lintstagedrc.js](./.lintstagedrc.js) file.
+
+[lint-staged]: https://github.com/okonet/lint-staged
 
 #### `pnpm lint:ts`
 
