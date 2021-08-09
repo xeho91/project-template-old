@@ -6,7 +6,7 @@
 		"moduleResolution": "node",
 		"module": "ESNext",
 		"lib": ["ESNext", "DOM", "DOM.Iterable"],
-		"types": ["node"],
+		"types": ["node", "vite/client"],
 		"target": "ESNext",
 		"importHelpers": true,
 

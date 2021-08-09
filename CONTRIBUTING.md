@@ -142,6 +142,15 @@ _(developing)_ for this project.
     with a unique id if you use any advanced Git flow integrations _(e.g.
     [Jira] or [GitHub])_.
 
+1. **Start the development server**, with the following command:
+
+    ```js
+    pnpm dev
+    ```
+
+    More information about this script is in the [`pnpm dev`](#pnpm-dev)
+    section.
+
 1. **Code your modifications/new features**, and commit them along the way.
    Please read more about set [Git commits
    convention](#git-commits-convention), and [writing commit
@@ -247,7 +256,9 @@ Existing hooks:
 
 The following scripts are available for this project:
 
+-   [`pnpm build`](#pnpm-build)
 -   [`pnpm commit`](#pnpm-commit)
+-   [`pnpm dev`](#pnpm-dev)
 -   [`pnpm format`](#pnpm-format)
 -   [`pnpm lint`](#pnpm-lint)
     -   [`pnpm lint:commits`](#pnpm-lintcommits)
@@ -258,6 +269,19 @@ The following scripts are available for this project:
     -   [`pnpm lint:staged`](#pnpm-lintstaged)
     -   [`pnpm lint:ts`](#pnpm-lintts)
 -   [`pnpm prepare`](#pnpm-prepare)
+-   [`pnpm preview`](#pnpm-preview)
+-   [`pnpm start`](#pnpm-start)
+
+### `pnpm build`
+
+**Builds the output for the production** into [`dist/`](./dist) directory using
+[Vite].\
+📝 **NOTE:** There must be no errors with [TypeScript] compilation to prevent
+possible bugs from being passed into production.
+
+The [Vite] configuration is in the [vite.config.js](./vite.config.js) file.
+
+[vite]: https://vitejs.dev/
 
 ### `pnpm commit`
 
@@ -265,6 +289,13 @@ The following scripts are available for this project:
 Node.js package.
 
 The [gacp] configuration is in the [.gacprc.js](./.gacprc.js) file.
+
+### `pnpm dev`
+
+**Starts the development server** with [Vite]. It will also enable hosting
+_(it makes the server available for the other devices on your network)_.
+
+The [Vite] configuration is in the [vite.config.js](./vite.config.js) file.
 
 ### `pnpm format`
 
@@ -368,3 +399,19 @@ This script should run automatically only once - during the `pnpm install`.
 After that, there's no need to use it.
 
 The [Husky] hooks are configured in the [.husky/](./.husky) directory.
+
+### `pnpm preview`
+
+**Starts the production server** for the built output with [Vite]. It will also
+enable hosting to make the project available for the other devices on your
+network.
+
+The [Vite] configuration is in the [vite.config.js](./vite.config.js) file.
+
+### `pnpm start`
+
+**Starts the project locally** by running [`pnpm build`](#pnpm-build) and
+[`pnpm preview`](#pnpm-preview) in series. It uses the [npm-run-all] Node.js
+package.
+
+The [Vite] configuration is in the [vite.config.js](./vite.config.js) file.

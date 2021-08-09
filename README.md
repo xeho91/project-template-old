@@ -45,6 +45,14 @@ experience thanks to its toolings, typings and helps find possible bugs.
 [typescript]: https://www.typescriptlang.org/
 [typescript logomark]: https://api.iconify.design/simple-icons:typescript.svg "TypeScript logomark"
 
+### ![Vite logomark] [Vite]
+
+As a JavaScript bundler, because it is speedy for local development and
+supports modern technologies.
+
+[vite]: https://vitejs.dev/
+[vite logomark]: https://api.iconify.design/simple-icons:vite.svg "Vite logomark"
+
 ---
 
 ## ⚓ Prerequisites
@@ -91,6 +99,18 @@ your current device on your network)_.
     ```sh
     pnpm install
     ```
+
+1. **Build the output and preview it** using the command:
+
+    ```sh
+    pnpm start
+    ```
+
+1. **Go to [`http://localhost:5000/`](http://localhost:5000/) page** in your
+   browser.
+
+    **NOTE:** If you want to open it on other devices on your network, use the
+    IP address provided in the terminal output after running the script.
 
 ---
 

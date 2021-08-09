@@ -1,2 +1,8 @@
+# Built output by Vite (for development)
+.cache/
+
+# Built output by Vite (for production)
+dist/
+
 # Node.js packages (dependencies)
 node_modules/

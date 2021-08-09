@@ -35,10 +35,14 @@
 		"prettier": "^2.3.2",
 		"stylelint": "^13.13.1",
 		"tslib": "^2.3.0",
-		"typescript": "^4.3.5"
+		"typescript": "^4.3.5",
+		"vite": "^2.4.4",
+		"vite-tsconfig-paths": "^3.3.13"
 	},
 	"scripts": {
+		"build": "tsc && vite build",
 		"commit": "gacp",
+		"dev": "vite --host",
 		"format": "prettier --write \".\"",
 		"lint": "run-p lint:*",
 		"lint:css": "stylelint \"source/**/*.{css,scss,svelte,vue}\"",
@@ -48,6 +52,8 @@
 		"lint:md": "markdownlint \"**/*.md\" --ignore \"./node_modules\"",
 		"lint:staged": "lint-staged --verbose",
 		"lint:ts": "tsc --project \"tsconfig.json\" --noEmit",
-		"prepare": "husky install"
+		"prepare": "husky install",
+		"preview": "vite preview --host",
+		"start": "run-s build preview"
 	}
 }
