@@ -1,0 +1,32 @@
+{
+	"$schema": "https://json.schemastore.org/tsconfig",
+	"compilerOptions": {
+		"noEmit": true,
+
+		"moduleResolution": "node",
+		"module": "ESNext",
+		"lib": ["ESNext", "DOM", "DOM.Iterable"],
+		"types": ["node"],
+		"target": "ESNext",
+		"importHelpers": true,
+
+		"allowJs": true,
+		"checkJs": true,
+		"strict": true,
+		"skipLibCheck": true,
+
+		"sourceMap": true,
+
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"downlevelIteration": true,
+
+		"baseUrl": ".",
+		"paths": {
+			"$source/*": ["source/*"],
+			"$types": ["source/types.ts"]
+		}
+	},
+	"include": ["source/**/*"],
+	"exclude": ["node_modules"]
+}

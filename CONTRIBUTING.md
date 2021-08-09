@@ -235,6 +235,7 @@ The following scripts are available for this project:
     -   [`pnpm lint:js`](#pnpm-lintjs)
     -   [`pnpm lint:ls`](#pnpm-lintls)
     -   [`pnpm lint:md`](#pnpm-lintmd)
+    -   [`pnpm lint:ts`](#pnpm-lintts)
 
 ### `pnpm commit`
 
@@ -318,3 +319,10 @@ The [markdownlint] configuration is in the
 [.markdownlint.json](./.markdownlint.json) file.
 
 [markdownlint]: https://github.com/DavidAnson/markdownlint
+
+#### `pnpm lint:ts`
+
+**Starts type checking all kinds of JavaScript code files** with [TypeScript]
+compiler.
+
+The [TypeScript] configuration is in the [tsconfig.json](./tsconfig.json) file.
