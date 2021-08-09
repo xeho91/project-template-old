@@ -229,6 +229,7 @@ The following scripts are available for this project:
 
 -   [`pnpm commit`](#pnpm-commit)
 -   [`pnpm format`](#pnpm-format)
+-   [`pnpm lint`](#pnpm-lint)
 
 ### `pnpm commit`
 
@@ -244,3 +245,10 @@ The [gacp] configuration is in the [.gacprc.js](./.gacprc.js) file.
 The [Prettier] configuration is in the [.prettierrc.js](./.prettierrc.js) file.
 
 [prettier]: https://prettier.io/
+
+### `pnpm lint`
+
+**Runs all of the set linting scripts in parallel**.\
+It uses the [npm-run-all] Node.js package.
+
+[npm-run-all]: https://github.com/mysticatea/npm-run-all
