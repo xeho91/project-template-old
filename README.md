@@ -8,6 +8,7 @@ Project description TBA...
 -   [Prerequisites](#-prerequisites)
 -   [Getting started](#-getting-started)
 -   [Feedback](#-feedback)
+-   [License](#-license)
 -   [Contact](#-contact)
 
 ---
@@ -52,6 +53,21 @@ Please let me know immediately! I care a lot about it.
 
 [open an issue]: https://github.com/xeho91/project-template/issues/new
 [a11y]: https://www.a11yproject.com/
+
+---
+
+## ⚖️ License
+
+[![License shield]](./LICENSE "Project's license")
+
+**The code** is licensed under the [MIT license](./LICENSE).
+
+The **graphical assets** created by me are licensed under [CC BY-SA
+4.0](./CC_BY-SA_4.0).\
+There's a more [human-readable summary] of this license.
+
+[license shield]: https://img.shields.io/github/license/xeho91/personal-website?style=for-the-badge
+[human-readable summary]: https://creativecommons.org/licenses/by-sa/4.0/
 
 ---
 
