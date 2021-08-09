@@ -230,6 +230,7 @@ The following scripts are available for this project:
 -   [`pnpm commit`](#pnpm-commit)
 -   [`pnpm format`](#pnpm-format)
 -   [`pnpm lint`](#pnpm-lint)
+    -   [`pnpm lint:commits`](#pnpm-lintcommits)
 
 ### `pnpm commit`
 
@@ -252,3 +253,13 @@ The [Prettier] configuration is in the [.prettierrc.js](./.prettierrc.js) file.
 It uses the [npm-run-all] Node.js package.
 
 [npm-run-all]: https://github.com/mysticatea/npm-run-all
+
+#### `pnpm lint:commits`
+
+**Analyzes the latest commit messages from the develop branch to latest**, in
+order to adhere to set commit convention with [commitlint].
+
+The [commitlint] configuration is in the [.commitlintrc.js](./.commitlintrc.js)
+file.
+
+[commitlint]: https://commitlint.js.org/#/
