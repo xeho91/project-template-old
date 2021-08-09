@@ -256,6 +256,7 @@ Existing hooks:
 
 The following scripts are available for this project:
 
+-   [`pnpm browsers`](#pnpm-browsers)
 -   [`pnpm build`](#pnpm-build)
 -   [`pnpm clean`](#pnpm-clean)
 -   [`pnpm commit`](#pnpm-commit)
@@ -272,6 +273,16 @@ The following scripts are available for this project:
 -   [`pnpm prepare`](#pnpm-prepare)
 -   [`pnpm preview`](#pnpm-preview)
 -   [`pnpm start`](#pnpm-start)
+
+### `pnpm browsers`
+
+**Outputs the list of supported browsers** by the project using the
+[browserslist] Node.js package.
+
+The [browserslist] configuration is in the [.browserslistrc](./.browserslistrc)
+file.
+
+[browserslist]: https://browserslist.dev/
 
 ### `pnpm build`
 

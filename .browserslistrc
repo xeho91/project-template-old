@@ -1,0 +1,12 @@
+# https://github.com/browserslist/browserslist
+
+[production]
+>0.2%
+not dead
+not OperaMini all
+not Explorer 11
+
+[development]
+last 1 Chrome version
+last 1 FireFox version
+last 1 Safari version

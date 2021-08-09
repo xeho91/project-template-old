@@ -26,6 +26,7 @@
 		"@xeho91/postcss-config": "^1.0.0",
 		"@xeho91/prettier-config": "^1.0.0",
 		"@xeho91/stylelint-config": "^1.0.0",
+		"browserslist": "^4.16.7",
 		"commitlint": "^13.1.0",
 		"eslint": "^7.32.0",
 		"gacp": "^2.10.2",
@@ -45,6 +46,7 @@
 	},
 	"scripts": {
 		"build": "tsc && vite build",
+		"browsers": "browserslist",
 		"clean": "rimraf \"dist/\" \".cache/\"",
 		"commit": "gacp",
 		"dev": "vite --host",
