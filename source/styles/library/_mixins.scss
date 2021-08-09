@@ -1,0 +1,19 @@
+@use "./breakpoints" as *;
+
+@mixin flex($direction, $content: center, $items: center) {
+	display: flex;
+	flex-direction: $direction;
+
+	@if content {
+		place-content: $content;
+	}
+
+	@if $items {
+		place-items: $items;
+	}
+}
+
+@mixin size($number) {
+	width: $number;
+	height: $number;
+}

@@ -1,0 +1,9 @@
+// Page layout components properties
+:root {
+	--header-height: 6em;
+
+	--content-max-width: 1280px;
+	--content-height: calc(100% - var(--header-height));
+	--content-padding-x: min(2em, 2.5vw);
+	--content-padding-y: 2.5em;
+}

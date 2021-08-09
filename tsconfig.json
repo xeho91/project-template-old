@@ -24,6 +24,7 @@
 		"baseUrl": ".",
 		"paths": {
 			"$source/*": ["source/*"],
+			"$styles/*": ["source/styles/*"],
 			"$types": ["source/types.ts"]
 		}
 	},

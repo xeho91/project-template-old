@@ -1,0 +1,19 @@
+:root {
+	--shadow-offsetX: 0;
+	--shadow-offsetY: 2px;
+	--shadow-blur: 5px;
+	--shadow-spread: 0px;
+
+	--box-shadow:
+		var(--shadow-offsetX)
+		var(--shadow-offsetY)
+		var(--shadow-blur)
+		var(--shadow-spread)
+		var(--color-shadow);
+
+	--text-shadow:
+		var(--shadow-offsetX)
+		var(--shadow-offsetY)
+		var(--shadow-blur)
+		var(--color-shadow);
+}

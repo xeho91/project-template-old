@@ -1,0 +1,7 @@
+:root {
+	--border-width: 2px;
+	--border-style: solid;
+	--border-color: aquablue;
+
+	--border: var(--border-width) var(--border-style) var(--border-color);
+}

@@ -1,0 +1,6 @@
+:root {
+	--transition-duration: 250ms;
+	--transition-function: ease-in-out;
+
+	--transition: var(--transition-duration) var(--transition-function);
+}
