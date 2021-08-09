@@ -151,3 +151,9 @@ _(developing)_ for this project.
 
 [jira]: https://www.atlassian.com/software/jira
 [github]: https://github.com/
+
+---
+
+## 🛠️ Git setup
+
+This section explains the configured Git flow for this project.

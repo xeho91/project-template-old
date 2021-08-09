@@ -1,0 +1,16 @@
+# ============== Folders ==============
+
+# =============== Files ===============
+
+# Desktop Services Store is a hidden file created in every local folder in Mac OS X
+.DS_Store/
+
+# Ignore generated log files
+*.log
+
+# Ignore generated temporary files
+*.tmp
+
+# Database files containing the small images displayed when you view a folder
+# in Thumbnail view (Windows)
+Thumbs.db

@@ -20,12 +20,24 @@ Project description TBA...
 This project uses the following technology stack, and there's short reasoning
 as to why these choices.
 
+### ![Git logomark] [Git]
+
+As a core version control tool, because it can be used with [GitHub] or
+[GitLab].
+
+[git]: https://git-scm.com/
+[git logomark]: https://api.iconify.design/simple-icons:git.svg "Git logomark"
+[github]: https://github.com/
+[gitlab]: https://gitlab.com/
+
 ---
 
 ## ⚓ Prerequisites
 
 This project requires these tools to be able to run it locally on your device
 and develop.
+
+1. [Git] version control tool to be installed.
 
 ---
 
@@ -37,6 +49,12 @@ The following steps are supposed to help you run this project locally _(on
 your current device on your network)_.
 
 [repository size shield]: https://img.shields.io/github/repo-size/xeho91/personal-website?style=for-the-badge
+
+1. **Clone this project** with [Git] using the following command:
+
+    ```sh
+    git clone https://github.com/xeho91/project-template.git
+    ```
 
 ---
 
