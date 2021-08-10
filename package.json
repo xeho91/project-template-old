@@ -1,0 +1,19 @@
+{
+	"$schema": "https://json.schemastore.org/package",
+	"name": "template-project",
+	"version": "0.0.0",
+	"author": {
+		"name": "Mateusz Kadlubowski",
+		"email": "xeho91@pm.me",
+		"url": "https://xeho91.com/"
+	},
+	"license": "SEE LICENSE IN LICENSE",
+	"homepage": "https://github.com/xeho91/template-project",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/xeho91/template-project.git"
+	},
+	"bugs": {
+		"url": "https://github.com/xeho91/template-project/issues"
+	}
+}

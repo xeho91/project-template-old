@@ -8,6 +8,7 @@ _(developing)_ for this project.
 -   [Coding style guidelines](#coding-style-guidelines)
 -   [Developing steps](#developing-steps)
 -   [Git setup](#git-setup)
+-   [Scripts](#scripts)
 
 ---
 
@@ -157,3 +158,14 @@ _(developing)_ for this project.
 ## 🛠️ Git setup
 
 This section explains the configured Git flow for this project.
+
+---
+
+## 🧰 Scripts
+
+👉 **REMINDER:** This project uses [`pnpm`] as [Node.js] package manager.
+
+[`pnpm`]: https://pnpm.io/
+[node.js]: https://nodejs.org/en/
+
+The following scripts are available for this project:

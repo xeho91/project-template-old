@@ -1,5 +1,8 @@
 # ============== Folders ==============
 
+# Node.js packages (dependencies), which can be installed
+node_modules/
+
 # =============== Files ===============
 
 # Desktop Services Store is a hidden file created in every local folder in Mac OS X
