@@ -7,6 +7,7 @@ Project description TBA...
 -   [Technology stack](#-technology-stack)
 -   [Prerequisites](#-prerequisites)
 -   [Getting started](#-getting-started)
+-   [Contributing](#-contributing)
 -   [Feedback](#-feedback)
 -   [Security Policy](#-security-policy)
 -   [License](#-license)
@@ -36,6 +37,13 @@ The following steps are supposed to help you run this project locally _(on
 your current device on your network)_.
 
 [repository size shield]: https://img.shields.io/github/repo-size/xeho91/personal-website?style=for-the-badge
+
+---
+
+## ⚙️ Contributing
+
+Please take a look at the [CONTRIBUTING.md](./CONTRIBUTING.md) file, where the
+development flow is explained and thoroughly described.
 
 ---
 
