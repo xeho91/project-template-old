@@ -69,6 +69,16 @@ advanced syntax.
 [sass]: https://sass-lang.com/
 [sass logomark]: https://api.iconify.design/simple-icons:sass.svg "Sass logomark"
 
+### ![Jest logomark] [Jest] & ![Testing Library logomark] [Testing Library]
+
+As a JavaScript Testing Framework because it focuses on simplicity, also it is
+utilized with Testing Library for the good testing practices.
+
+[jest]: https://jestjs.io/
+[testing library]: https://testing-library.com/
+[jest logomark]: https://api.iconify.design/simple-icons:jest.svg "Jest logomark"
+[testing library logomark]: https://api.iconify.design/simple-icons:testinglibrary.svg "Testing Library logomark"
+
 ---
 
 ## ⚓ Prerequisites

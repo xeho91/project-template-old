@@ -156,6 +156,14 @@ _(developing)_ for this project.
    convention](#git-commits-convention), and [writing commit
    messages](writing-commit-messages).
 
+1. Start the available tests, with the following command:
+
+    ```sh
+    pnpm test:watch
+    ```
+
+    More information about this script is in the [`pnpm test:watch`](#pnpm-testwatch) section.
+
 1. **Analyze** _(use linters)_ **the changes using available commands**, such
    as:
 
@@ -273,6 +281,9 @@ The following scripts are available for this project:
 -   [`pnpm prepare`](#pnpm-prepare)
 -   [`pnpm preview`](#pnpm-preview)
 -   [`pnpm start`](#pnpm-start)
+-   [`pnpm test`](#pnpm-test)
+    -   [`pnpm test:coverage`](#pnpm-testcoverage)
+    -   [`pnpm test:watch`](#pnpm-testwatch)
 
 ### `pnpm browsers`
 
@@ -438,3 +449,34 @@ The [Vite] configuration is in the [vite.config.js](./vite.config.js) file.
 package.
 
 The [Vite] configuration is in the [vite.config.js](./vite.config.js) file.
+
+### `pnpm test`
+
+**Runs all of the written (coded) tests** in the project with [Jest] - a
+JavaScript testing framework. [Testing Library] utilizes it for good testing
+practices.
+
+The [Jest] configuration is in the [jest.config.js](./jest.config.js) file.\
+The [Jest] setup is in the [jest.setup.js](./jest.setup.js) file.
+
+[jest]: https://jestjs.io/
+[testing library]: https://testing-library.com/
+
+#### `pnpm test:coverage`
+
+**Generates a current testing coverage of the project report** to the
+[.coverage](./.coverage) directory. Made by [Jest], which uses a [istanbul] tool
+internally.
+
+The [Jest] configuration is in the [jest.config.js](./jest.config.js) file.\
+The [Jest] setup is in the [jest.setup.js](./jest.setup.js) file.
+
+[istanbul]: https://istanbul.js.org/
+
+#### `pnpm test:watch`
+
+**Starts the tests with watch mode** for development purposes. Inside the
+running process, you can configure file(s) watching conditions.
+
+The [Jest] configuration is in the [jest.config.js](./jest.config.js) file.\
+The [Jest] setup is in the [jest.setup.js](./jest.setup.js) file.
