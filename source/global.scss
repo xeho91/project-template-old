@@ -2,6 +2,9 @@
 
 @use "./styles/library" as *;
 
+/* https://github.com/sindresorhus/modern-normalize */
+@import "../node_modules/modern-normalize/modern-normalize.css";
+
 @import "./styles/colors.scss";
 @import "./styles/borders.scss";
 @import "./styles/outlines.scss";

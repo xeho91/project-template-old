@@ -16,6 +16,9 @@
 	"bugs": {
 		"url": "https://github.com/xeho91/template-project/issues"
 	},
+	"dependencies": {
+		"modern-normalize": "^1.1.0"
+	},
 	"devDependencies": {
 		"@ls-lint/ls-lint": "^1.10.0",
 		"@testing-library/dom": "^8.1.0",
